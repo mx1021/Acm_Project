@@ -43,6 +43,10 @@ public class T1_TwoNumber
             if (target >= nums[i])
                 map.put(i, nums[i]);
         }
+        
+        
+        
+        
         //返回的数组
         Integer[] ret = new Integer[2];
         Iterator<Entry<Integer, Integer>> iterator = map.entrySet().iterator();
